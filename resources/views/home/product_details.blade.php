@@ -63,6 +63,13 @@
                   <p>{{$data->description}}</p>
                 
               </div>
+              <div class="detail-box">
+                
+                <a class="btn btn-primary" href="{{url('add_cart',$data->id)}}">
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              
+            </div>
 
           </div>
         </div>

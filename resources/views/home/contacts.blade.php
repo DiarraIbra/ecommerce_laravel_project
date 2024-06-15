@@ -86,6 +86,11 @@
 
  
   <!-- info section -->
+    <!-- contact section -->
+
+ 
+@include('home.contact')
+<!-- end contact section -->
 
   <section class="info_section  layout_padding2-top">
     <div class="social_container">
@@ -195,6 +200,7 @@ function displayAlert(message, type) {
     <!-- footer section -->
 
   </section>
+  
 
   <!-- end info section -->
 

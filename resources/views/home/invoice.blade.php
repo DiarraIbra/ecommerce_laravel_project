@@ -55,6 +55,7 @@
         <h2>Price :  {{$data->product->price}} DH</h2>
         <img src="products/{{$data->product->image}}" alt="image introuvable">
         <h2>Delivery Status: {{$data->status}}</h2>
+        <h2>Payment Status: {{$data->payment_status}}</h2>
     </div>
 </body>
 </html>

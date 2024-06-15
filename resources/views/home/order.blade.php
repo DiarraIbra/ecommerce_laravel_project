@@ -44,6 +44,7 @@
                     <th>Product Name</th>
                     <th>Price</th>
                     <th>Delivery Status</th>
+                    <th>Payment Status</th>
                     <th>Image</th>
                     <th>Print PDF</th>
                 </tr>
@@ -54,6 +55,7 @@
                     <td>{{$order->product->title}}</td>
                     <td>{{$order->product->price}}</td>
                     <td>{{$order->status}}</td>
+                    <td>{{$order->payment_status}}</td>
                     <td>
                         <img height="150" width="300" src="products/{{$order->product->image}}" alt="image introuvable">
                     </td>
